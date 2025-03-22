@@ -1,5 +1,5 @@
 /**
- * This website and its content is copyright of Web and Server Solution - © Web
+ * This website and its content is copyright of Web and Server Solution - Â© Web
  * and Server Solution 2012. All rights reserved. Any redistribution or
  * reproduction of part or all of the contents in any form is prohibited. You
  * may not, except with our express written permission, distribute or
@@ -28,7 +28,7 @@ controller_nbc = function() {
 				
                 $.ajax({
 					//url : 'https://awasr.herokuapp.com/bre/getdatajsonp',
-					url : 'http://132.145.65.68:8080/bre/getdatajsonp',
+			                url : 'http://130.162.186.141:8080/awasr/bre/getdatajsonp',
 					data: inputdata,
 					dataType: 'jsonp',
                     success: function(dataWeGotViaJsonp){
